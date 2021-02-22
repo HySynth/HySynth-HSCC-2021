@@ -1,0 +1,147 @@
+-------------
+RESULTS ecg_order1 MODEL
+-------------
+Consider delta = 0.100000
+Synthesized after 1 steps: 
+
+Hybrid System test_hs_6302013
+===================================================
+Location: Q0
+Invariant: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([-0.000926634, 0.679707])>
+Flow: x' = [[0.0951642]]x + [0.]
+---------------------------------------------------
+Location: Q1
+Invariant: <PyCall.jlwrap Hyperrectangle{Float64,Array{Float64,1},Array{Float64,1}}([0.11305501414640853], [0.11398164695411897])>
+Flow: x' = [[-4.6915584]]x + [0.29883454]
+---------------------------------------------------
+Location: Q2
+Invariant: <PyCall.jlwrap Hyperrectangle{Float64,Array{Float64,1},Array{Float64,1}}([0.3686189133564273], [0.3072334187497073])>
+Flow: x' = [[8.76940037]]x + [0.50322835]
+---------------------------------------------------
+Location: Q3
+Invariant: <PyCall.jlwrap Hyperrectangle{Float64,Array{Float64,1},Array{Float64,1}}([0.40227828880667427], [0.2774286538897458])>
+Flow: x' = [[-7.27971322]]x + [-0.45231456]
+---------------------------------------------------
+Location: Q4
+Invariant: <PyCall.jlwrap Hyperrectangle{Float64,Array{Float64,1},Array{Float64,1}}([0.16031109241763883], [0.06121386491458657])>
+Flow: x' = [[-2.43919976]]x + [0.56348226]
+---------------------------------------------------
+===================================================
+---------------------------------------------------
+Edge: Q0 -> Q0
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.10831575975870077], 0.08)>
+---------------------------------------------------
+Edge: Q0 -> Q1
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.16800400360270384], 0.08)>
+---------------------------------------------------
+Edge: Q0 -> Q3
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.6990537280304323], 0.08)>
+---------------------------------------------------
+Edge: Q0 -> Q4
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.08626734985278217], 0.08)>
+---------------------------------------------------
+Edge: Q1 -> Q2
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.06742596404709116], 0.08)>
+---------------------------------------------------
+Edge: Q1 -> Q0
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.029536778477811457], 0.08)>
+---------------------------------------------------
+Edge: Q2 -> Q0
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.663642727164856], 0.08)>
+---------------------------------------------------
+Edge: Q3 -> Q1
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.14317849159830823], 0.08)>
+---------------------------------------------------
+Edge: Q4 -> Q1
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.21955873806969978], 0.08)>
+
+Synthesized after 3 steps: 
+
+Hybrid System test_hs_6302013
+===================================================
+Location: Q0
+Invariant: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([-0.000926634, 0.679707])>
+Flow: x' = [[0.0951642]]x + [0.]
+---------------------------------------------------
+Location: Q1
+Invariant: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([-0.0214739, 0.232948])>
+Flow: x' = [[-4.6915584]]x + [0.29883454]
+---------------------------------------------------
+Location: Q2
+Invariant: <PyCall.jlwrap Hyperrectangle{Float64,Array{Float64,1},Array{Float64,1}}([0.3686189133564273], [0.3072334187497073])>
+Flow: x' = [[8.76940037]]x + [0.50322835]
+---------------------------------------------------
+Location: Q3
+Invariant: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([-0.00136236, 0.679707])>
+Flow: x' = [[-7.27971322]]x + [-0.45231456]
+---------------------------------------------------
+Location: Q4
+Invariant: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.00653438, 0.226471])>
+Flow: x' = [[-2.43919976]]x + [0.56348226]
+---------------------------------------------------
+Location: Q5
+Invariant: <PyCall.jlwrap Hyperrectangle{Float64,Array{Float64,1},Array{Float64,1}}([0.36746899628552654], [0.3039744235015305])>
+Flow: x' = [[9.76886818]]x + [0.23903746]
+---------------------------------------------------
+Location: Q6
+Invariant: <PyCall.jlwrap Hyperrectangle{Float64,Array{Float64,1},Array{Float64,1}}([0.05762067056451371], [0.08029970339203409])>
+Flow: x' = [[-54.54945369]]x + [-1.17271764]
+---------------------------------------------------
+===================================================
+---------------------------------------------------
+Edge: Q0 -> Q0
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.0283157, 0.189203])>
+---------------------------------------------------
+Edge: Q0 -> Q1
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.0172148, 0.248005])>
+---------------------------------------------------
+Edge: Q0 -> Q3
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.596178, 0.805132])>
+---------------------------------------------------
+Edge: Q0 -> Q4
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.00626734, 0.25058])>
+---------------------------------------------------
+Edge: Q1 -> Q2
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([-0.0125741, 0.150284])>
+---------------------------------------------------
+Edge: Q1 -> Q0
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([-0.0504633, 0.223214])>
+---------------------------------------------------
+Edge: Q1 -> Q5
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.05814362636066099], 0.08)>
+---------------------------------------------------
+Edge: Q1 -> Q4
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.0107145, 0.180995])>
+---------------------------------------------------
+Edge: Q2 -> Q0
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.580205, 0.743643])>
+---------------------------------------------------
+Edge: Q2 -> Q2
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.24902034926670905], 0.08)>
+---------------------------------------------------
+Edge: Q3 -> Q1
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([-0.0799937, 0.223179])>
+---------------------------------------------------
+Edge: Q3 -> Q3
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.11143071937551072], 0.08)>
+---------------------------------------------------
+Edge: Q3 -> Q6
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.13339252546667985], 0.08)>
+---------------------------------------------------
+Edge: Q4 -> Q1
+Guard: <PyCall.jlwrap Interval{Float64,IntervalArithmetic.Interval{Float64}}([0.0924131, 0.339386])>
+---------------------------------------------------
+Edge: Q4 -> Q4
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.1397793106094578], 0.08)>
+---------------------------------------------------
+Edge: Q5 -> Q0
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([0.6181989032162886], 0.08)>
+---------------------------------------------------
+Edge: Q6 -> Q1
+Guard: <PyCall.jlwrap BallInf{Float64,Array{Float64,1}}([-0.02147315489431807], 0.08)>
+
+{'ecg_order1': {
+
+0.1: {'#pwld': 3, 'avg pwld piece length': 11.333333333333334, 'max pwld piece length': 13, 'min pwld piece length': 10, 'list #tree nodes': [158, 1362, 99625], 'list #locations': [0, 5, 6], 'list #pieces': [10, 11, 13], 'synth time': 3812.3567464351654, 'synth #modes': 7}
+
+}}; {'ecg_order1': {'ts2pwl time': 220.38607263565063}}
